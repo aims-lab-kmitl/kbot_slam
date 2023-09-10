@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-    <arg name="map_file" default="-f $(find kbot_navigation)/maps/map"/>
+    <arg name="map_file" default="-f $(find kbot_slam)/maps/map"/>
 
     <node name="map_server" pkg="map_server" type="map_saver"  output="screen" args="$(arg map_file)"/>
 
