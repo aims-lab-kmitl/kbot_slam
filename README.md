@@ -51,9 +51,9 @@ $ nano savemap.launch
 ## Command
 - KBOT Slam
 ```
-$ roslaunch kbot_serial rosserial.launch
+$ roslaunch kbot_slan slam.launch
 ```
 - KBOT Savemap
 ```
-$ roslaunch kbot_teleop teleop.launch
+$ roslaunch kbot_slam savemap.launch
 ```
